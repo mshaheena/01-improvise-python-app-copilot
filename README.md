@@ -29,3 +29,25 @@ python -m venv .venv
 source .venv/bin/activate   # macOS / Linux
    
 .venv\Scripts\activate      # Windows
+
+2.Install dependencies:
+
+pip install -r requirements.txt
+
+3.Start the app with uvicorn:
+
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+4. Visit:
+
+Interactive form: http://localhost:8000/form
+
+Swagger UI / OpenAPI: http://localhost:8000/docs
+
+Redoc: http://localhost:8000/redoc
+
+# Run Locally #
+
+pytest -q
+
+
