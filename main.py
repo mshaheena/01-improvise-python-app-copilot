@@ -74,7 +74,7 @@ def welcome():
     Simple welcome route.
     Customize `participant_name` variable below with your name.
     """
-    participant_name = "mallela sahid"  # <<-- change this to your name (e.g. "Mark")
+    participant_name = "Mallela Shaheena"  
     return {"message": f"Welcome to the Improvise Python App — built for {participant_name}"}
 
 
